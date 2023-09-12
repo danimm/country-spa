@@ -16,5 +16,12 @@
     <!-- Table of Results   -->
     <hr>
     Table of results
+    <ul>
+      <li
+        *ngFor="let country of countries"
+      >
+        {{ country.capital }} - {{ country.population }}
+      </li>
+    </ul>
   </div>
 </div>
